@@ -1,6 +1,6 @@
 provider "github" {
-  token        = "${var.gh_token}"
-  organization = "${var.gh_org}"
+  token        = "${var.github_token}"
+  organization = "${var.github_organization}"
 }
 
 resource "github_repository" "example" {

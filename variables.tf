@@ -1,7 +1,7 @@
-variable "gh_token" {
+variable "github_token" {
   description = "GitHub token"
 }
 
-variable "gh_org" {
+variable "github_organization" {
   description = "GitHub Organization"
 }
