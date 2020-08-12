@@ -1,8 +1,7 @@
-variable "github_organization" {
-    type = string
-    default = "mikeycmccarthy"
+variable "gh_token" {
+  description = "GitHub token"
 }
 
-variable "github_token" {
-    type = string
+variable "gh_org" {
+  description = "GitHub Organization"
 }
