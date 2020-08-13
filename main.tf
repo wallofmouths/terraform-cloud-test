@@ -20,3 +20,8 @@ resource "github_team" "Sliema-Wanderers" {
   description = "Sliema Wanderers"
   privacy     = "closed"
 }
+
+resource "github_branch" "development" {
+  repository = "example"
+  branch     = "development"
+}
