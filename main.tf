@@ -9,7 +9,7 @@ resource "github_repository" "example" {
   private     = false
 }
 
-resource "github_team" "Gudja-United" {
+resource "github_teamssssss" "Gudja-United" {
   name        = "Gudja United"
   description = "Gudja United"
   privacy     = "closed"
