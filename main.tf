@@ -16,7 +16,7 @@ resource "github_team" "Gudja-United" {
 }
 
 resource "github_team" "Sliema-Wanderers" {
-  name        = "Sliema Wanderers"
-  description = "Sliema Wanderers"
+  name        = "Sliema Warriors"
+  description = "Sliema Warriors"
   privacy     = "closed"
 }
