@@ -8,3 +8,15 @@ resource "github_repository" "example" {
   description = "My awesome codebase"
   private     = false
 }
+
+resource "github_team" "Gudja-United" {
+  name        = "Gudja United"
+  description = "Gudja United"
+  privacy     = "closed"
+}
+
+resource "github_team" "Sliema-Wanderers" {
+  name        = "Sliema Wanderers"
+  description = "Sliema Wanderers"
+  privacy     = "closed"
+}
