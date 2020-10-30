@@ -9,15 +9,15 @@ resource "github_repository" "example" {
   private     = false
 }
 
-resource "github_team" "Gudja-United" {
+resource "github_teams" "Gudja-United" {
   name        = "Gudja United"
   description = "Gudja United"
   privacy     = "closed"
 }
 
 resource "github_team" "Sliema-Wanderers" {
-  name        = "Sliema Wanderers"
-  description = "Sliema Wanderers"
+  name        = "Sliema Warriors"
+  description = "Sliema Warriors"
   privacy     = "closed"
 }
 
