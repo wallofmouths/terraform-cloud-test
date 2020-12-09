@@ -40,3 +40,9 @@ resource "github_team" "Sirens" {
   description = "Sirens"
   privacy     = "closed"
 }
+
+resource "github_team" "Marsa" {
+  name        = "Marsa"
+  description = "Marsa"
+  privacy     = "closed"
+}
