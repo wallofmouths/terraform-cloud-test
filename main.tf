@@ -1,12 +1,26 @@
+terraform {
+
+  required_version = "~> 0.14.0"
+
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "mikeycmccarthy"
+
+    workspaces {
+      name = "terraform-cloud-test"
+    }
+  }
+
+  required_providers {
+    github = {
+      version = "~> 4.1.0"
+    }
+  }
+}
+
 provider "github" {
   token        = var.github_token
   organization = var.github_organization
-}
-
-resource "github_repository" "example" {
-  name        = "example"
-  description = "My awesome codebase"
-  private     = false
 }
 
 resource "github_team" "Gudja-United" {
@@ -26,4 +40,3 @@ resource "github_team" "Sirens" {
   description = "Sirens"
   privacy     = "closed"
 }
-
