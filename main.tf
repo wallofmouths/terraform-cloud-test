@@ -46,3 +46,9 @@ resource "github_team" "Marsa" {
   description = "Marsa"
   privacy     = "closed"
 }
+
+resource "github_team" "Balzan" {
+  name        = "Balzan"
+  description = "Balzan"
+  privacy     = "closed"
+}
