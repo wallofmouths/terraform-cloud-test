@@ -23,11 +23,11 @@ provider "github" {
   organization = var.github_organization
 }
 
-resource "github_team" "Gudja-United" {
-  name        = "Gudja United"
-  description = "Gudja United"
-  privacy     = "closed"
-}
+# resource "github_team" "Gudja-United" {
+#   name        = "Gudja United"
+#   description = "Gudja United are the best"
+#   privacy     = "closed"
+# }
 
 resource "github_team" "Sliema-Wanderers" {
   name        = "Sliema Wanderers"
